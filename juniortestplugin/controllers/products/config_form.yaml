@@ -1,0 +1,10 @@
+name: Products
+form: $/app06/juniortestplugin/models/product/fields.yaml
+modelClass: App06\Juniortestplugin\Models\Product
+defaultRedirect: app06/juniortestplugin/products
+create:
+    redirect: 'app06/juniortestplugin/products/update/:id'
+    redirectClose: app06/juniortestplugin/products
+update:
+    redirect: app06/juniortestplugin/products
+    redirectClose: app06/juniortestplugin/products

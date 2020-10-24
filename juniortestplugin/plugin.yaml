@@ -1,0 +1,16 @@
+plugin:
+    name: 'app06.juniortestplugin::lang.plugin.name'
+    description: 'app06.juniortestplugin::lang.plugin.description'
+    author: app06
+    icon: oc-icon-adjust
+    homepage: ''
+navigation:
+    main-menu-item:
+        label: Категории
+        url: app06/juniortestplugin/categories
+        icon: icon-align-justify
+        sideMenu:
+            side-menu-item:
+                label: Продукты
+                url: app06/juniortestplugin/products
+                icon: icon-sitemap
